@@ -39,7 +39,7 @@ public class FPHandler implements Listener {
     sendFakes(e.getPlayer());
   }
   
-  public void createFake(String name) { 
+  public void createFake(String name) {
     EntityPlayer ep;
     MinecraftServer server = ((CraftServer) Bukkit.getServer()).getServer();
     WorldServer w = ((CraftWorld) Bukkit.getWorlds().get(0)).getHandle();
